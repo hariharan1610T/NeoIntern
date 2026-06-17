@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header-section {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top; /* Aligns the image to show the top part */
+            border: 3px solid #0056b3;
+        }
+        h1 {
+            margin: 10px 0 5px;
+            color: #0056b3;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        
+        <!-- Photo and Header Section -->
+        <header class="header-section">
+            <!-- Replace the src URL with the path to your actual photo -->
+             
+            <img src="../day1/download.jpg" alt="Student Profile Photo" class="profile-photo">
+            <h1>Hariharan T</h1>
+            <p><strong>Deptpartment:</strong> Information Technology | <strong>Year:</strong> 2024-28 </p>
+        </header>
+
+        <main>
+            <!-- Education Information -->
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Bachelor of Technology in Information Technology </strong> (2024-28) - KCG College of Technology</li>
+                </ul>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
+                    <li>Git</li>
+                    <li>Java</li>
+                    <li>Docker</li>
+                </ul>
+            </section>
+
+            <!-- Hobbies -->
+            <section id="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Movies </li>
+                    <li>Playing Outdoor Games </li>
+                    <li>LeetCode </li>
+                    <li>Song</li>
+                </ul>
+            </section>
+        </main>
+
+    </div>
+
+</body>
+</html>
