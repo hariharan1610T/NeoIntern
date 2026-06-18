@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Tech Solutions - Services</title>
+
+    <style>
+        /* Reset and Base Styles */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f5f7fa;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures footer stays at the bottom */
+        }
+
+        /* Header Styling */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Section & Titles */
+        .section {
+            padding: 50px 8%;
+            flex: 1; /* Pushes the footer to the bottom if content is short */
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 32px;
+            color: #222;
+        }
+
+        /* Flexbox Layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        /* Card Styling */
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            padding: 30px 25px;
+            border-radius: 12px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover effect for the card */
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        /* Card Content */
+        .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background: #222;
+            color: #ddd;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: auto; /* Ensures it sits at the bottom */
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .section {
+                padding: 30px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+    IT Tech Solutions
+</div>
+
+<!-- Services Section -->
+<section class="section">
+    <h2 class="title">Our Services</h2>
+
+    <div class="container">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Web Development</h3>
+            <p>Modern, responsive and scalable websites tailored for your business needs.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Graphic Design</h3>
+            <p>Creative and eye-catching designs that elevate your brand identity.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="icon">📈</div>
+            <h3>SEO Optimization</h3>
+            <p>Boost your online visibility and rank higher on major search engines.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Copyright Footer -->
+<footer class="footer">
+    <p>&copy; 2026 IT Tech Solutions. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
